@@ -17,7 +17,14 @@ public class MainActivity extends AppCompatActivity {
         bo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "hello world", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "hello edit", Toast.LENGTH_SHORT).show();
+            }
+        });
+        Button newb = findViewById(R.id.button3);
+        newb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "new Button", Toast.LENGTH_SHORT).show();
             }
         });
     }
